@@ -8,10 +8,10 @@ function divide(angka) {
     let kosong = [];
     spl.map((m) => {
       let sorting = m.split("").sort();
-      let ubahAngka = Number(sorting.join(""));
+      let ubahAngka = sorting.join("");
       kosong += ubahAngka;
     });
-    console.log(kosong);
+    console.log(Number(kosong));
   }
 }
 divide(1324509876504321);

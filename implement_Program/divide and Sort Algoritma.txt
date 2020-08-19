@@ -10,5 +10,5 @@ Divide and Sort
 8. buat variable sorting yang mensplit m lalu di chaining dengan sort
 9. lalu buat variable ubah angka yang menampung nilai sorting lalu di join
 10. masukan nilai ubahAngka kedalam variable kosong tadi
-11. jalankan dengan consolo.log(kosong)
+11. jalankan dengan consolo.log(Number(kosong))
 12. jalankan function dengan memasukan argumen angka
