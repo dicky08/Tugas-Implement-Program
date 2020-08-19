@@ -5,8 +5,10 @@ Divide and Sort
 4. Jika tipe berupa angka maka buat variable baru yg bernama arr
 5. lalu buat variable baru yg bernama spl yang mensplit arr tadi dengan delimiter 0
    arr.split('0')
-6. buat destructuring yang membagi 3 variable yang diisi dengan variable spl
-7. buat variable sor1 sor2 dan sor3 untuk menampung hasil destructuring tadi dan di chaining menggunakan split dan sort
-8. buat variable gabung dan gabungkan variable sor tadi menggunakan spread operator
-9. lalu console.log dan buat tipe nya kedalam number digabung dengan join
-10. jalankan Function dengan memasukan argument bertipe angka
+6. buat varible baru yang menampung nilai array kosong
+7. maping variable spl lalu representasikan dengan m
+8. buat variable sorting yang mensplit m lalu di chaining dengan sort
+9. lalu buat variable ubah angka yang menampung nilai sorting lalu di join
+10. masukan nilai ubahAngka kedalam variable kosong tadi
+11. jalankan dengan consolo.log(kosong)
+12. jalankan function dengan memasukan argumen angka
