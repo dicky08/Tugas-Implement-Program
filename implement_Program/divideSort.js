@@ -10,7 +10,7 @@ function divide(angka) {
       let ubahAngka = sorting.join("");
       kosong += ubahAngka;
     });
-    console.log(Number(kosong));
+    console.log(parseInt(kosong));
   }
 }
-divide(1324509876504321);
+divide(13245098765123234204321);
