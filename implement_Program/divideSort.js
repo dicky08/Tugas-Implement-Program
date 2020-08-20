@@ -1,5 +1,4 @@
 function divide(angka) {
-  console.log(angka);
   if (typeof angka !== "number") {
     console.log("Masukan Number");
   } else {
