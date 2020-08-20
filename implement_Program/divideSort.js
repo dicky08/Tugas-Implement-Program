@@ -4,7 +4,7 @@ function divide(angka) {
   } else {
     let arr = angka.toString();
     let spl = arr.split("0");
-    let kosong = [];
+    let kosong = '';
     spl.map((m) => {
       let sorting = m.split("").sort();
       let ubahAngka = sorting.join("");
